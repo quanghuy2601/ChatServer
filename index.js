@@ -10,7 +10,7 @@ app.use(express.json());
 var clients = {};
 
 io.on("connection", (socket) => {
-    console.log("connetetd");
+    console.log("conneted");
     console.log(socket.id, "has joined");
     socket.on("signin", (id) => {
         console.log(id);
