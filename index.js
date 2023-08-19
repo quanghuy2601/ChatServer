@@ -24,6 +24,6 @@ io.on("connection", (socket) => {
     });
 });
 
-server.listen(port, "0.0.0.0", () => {
+server.listen(port, "192.168.1.40", () => {
     console.log("server started");
 });
